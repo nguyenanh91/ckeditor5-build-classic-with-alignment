@@ -62,7 +62,29 @@ ClassicEditor.builtinPlugins = [
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	plugins: [
-		Base64UploadAdapter
+		Essentials,
+		Base64UploadAdapter,
+		Autoformat,
+		Bold,
+		Italic,
+		Underline,
+		BlockQuote,
+		CKFinder,
+		EasyImage,
+		Heading,
+		Image,
+		ImageCaption,
+		ImageStyle,
+		ImageToolbar,
+		ImageUpload,
+		Link,
+		List,
+		MediaEmbed,
+		Paragraph,
+		PasteFromOffice,
+		Table,
+		TableToolbar,
+		Alignment
 	],
 	toolbar: {
 		items: [
